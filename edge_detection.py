@@ -83,7 +83,7 @@ theta_list = []
 
 for line in lines:
     rho,theta = line[0]
-    if 2.51<theta<2.52 and rho != 257:
+    if 2.51<theta<2.52 and rho != 256:
         rho_list.append(rho)
         theta_list.append(theta)
         a = np.cos(theta)
